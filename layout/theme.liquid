@@ -64,6 +64,7 @@
     <script src="{{ 'cart.js' | asset_url }}" defer></script>
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
 
+  {% render 'rapid-search-settings' %}
 </head>
 
 <body class="{{ request.page_type | prepend: 'page-type-' }}">
